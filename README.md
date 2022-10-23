@@ -48,10 +48,10 @@ Other refer to an Hardware Bill of Materials as HBOM.
 
 To outline SBOM essentials the different use cases around SBOMs are inspected.
 
-* [Creating and SBOM](docs/sbom-create.md).
-* Creating Software Documentation using SBOMs.
-* Monitoring Vulnerabilities using SBOMs.
-* Creating Vulnerability Disclosure Reports using SBOMs.
+* [Creating and SBOM](docs/sbom-create.md)
+* Creating Software Documentation using SBOMs
+* Monitoring Vulnerabilities using SBOMs
+* Creating Vulnerability Disclosure Reports using SBOMs
 
 ## Implementations
 
