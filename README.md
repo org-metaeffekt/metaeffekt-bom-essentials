@@ -6,10 +6,15 @@
 An Asset is concept or unit of value. Here, either a Software or Hardware Asset.
 
 ### Software Asset
-A Software Asset is an Asset consisting of Software.
+A Software Asset is an Asset consisting of Software. Software Assets are for example:
+* Software archives for distribution
+* Software Container Images
+* Virtual Machine Images
 
 ### Hardware Asset
-A Hardware Asset is an Asset consisting of Hardware.
+A Hardware Asset is an Asset consisting of Hardware. Hardware assets are for example:
+* Devices (stationary devices and equipment, mobile devices, robots)
+* Server appliances
 
 ### Bill of Materials (BOM)
 
@@ -39,3 +44,23 @@ complete and shippable product.
 The term MBOM is defined in early ANSI/ISA-95 (IEC 62264-1 Models and Terminology).
 Other refer to an Hardware Bill of Materials as HBOM.
 
+## SBOM Essentials
+
+To outline SBOM essentials the different use cases around SBOMs are inspected.
+
+* [Creating and SBOM](docs/sbom-create.md).
+* Creating Software Documentation using SBOMs.
+* Monitoring Vulnerabilities using SBOMs.
+* Creating Vulnerability Disclosure Reports using SBOMs.
+
+## Implementations
+
+* SPDX
+* CycloneDX
+* SWID
+* metæffekt Inventory
+* ORT Analysis Output
+
+### External References
+
+* [NTIA Software Bill of Materials](https://ntia.gov/SBOM) - very complete materials on SBOMs.
