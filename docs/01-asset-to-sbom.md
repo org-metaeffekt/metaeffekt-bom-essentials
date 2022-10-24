@@ -1,8 +1,10 @@
-# Creating an SBOM
+# Creating an SBOM from Software Assets
 
 An SBOM represents knowledge and insights on one or more Software Assets. 
 Such information can be either gathered manually or applying tools producing 
 SBOMs based in different inputs.
+
+![SBOM created from Software Assets](figures/01-asset-to-sbom.svg)
 
 Tools may be specifically used in continuous integration environment to anticipate
 changes in the underlying Software Assets and produce correlating SBOMs.
@@ -23,8 +25,6 @@ interest**. Assuming that the Software Assets are the target of interest, an SBO
 cover the information detailing the assets, no matter which representation is used,
 to convey the information to a recipient (e.g. an operator or business partner).
 
-![SBOM created from Software Assets](sbom-create.svg)
-
 It is important to note, that dependencies on source level may not necessarily be
 part of the binary or distribution representation. The interpretation of dependencies 
 strongly depends on the technology applied to build the binary from source and
@@ -42,3 +42,12 @@ conclusions.
 The benefit of downstream results from an SBOM relies on the completeness of the SBOM.
 In case the SBOM is incomplete, the derived conclusions may be incomplete. If the SBOM
 is inaccurate, the donwstream results may be imprecise.
+
+Completeness validation can either be based on automated validation rules applied to an SBOM. Such rules can cover:
+* consistency checks based on structure 
+* consistency checks based on semantics
+* validation of declared and internal known information
+
+Another approach for the validation of completeness are reviews and explorative audits. While reviews try to establish
+an overall status quo, explorations are dedicated to in depth analysis focusing on specific artefacts or modes of 
+integration.  
