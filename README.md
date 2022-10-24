@@ -56,7 +56,7 @@ To outline SBOM essentials the different use cases around SBOMs are inspected.
 * [Creating Software Documentation using SBOMs](docs/02-sbom-to-annex.md)
 * [Monitoring Vulnerabilities using SBOMs](docs/03-sbom-to-dashboard.md)
 * [Reporting Vulnerability Disclosures using SBOMs](docs/04-sbom-to-report.md)
-* [License Scanning using SBOMs](docs/05-sbom-to-report.md)
+* [License Scanning using SBOMs](docs/05-sbom-to-scan.md)
 
 ### Implementations
 
