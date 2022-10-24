@@ -52,7 +52,7 @@ To outline SBOM essentials the different use cases around SBOMs are inspected.
 
 ### SBOM Use Cases
 
-* [Creating an SBOM](docs/01-asset-to-sbom.md)
+* [Creating an SBOM from Software Artifacts](docs/01-asset-to-sbom.md)
 * [Creating Software Documentation using SBOMs](docs/02-sbom-to-annex.md)
 * [Monitoring Vulnerabilities using SBOMs](docs/03-sbom-to-dashboard.md)
 * [Reporting Vulnerability Disclosures using SBOMs](docs/04-sbom-to-report.md)
@@ -62,11 +62,11 @@ To outline SBOM essentials the different use cases around SBOMs are inspected.
 
 The following projects define SBOM data models and format definition:
 
-* SPDX
-* CycloneDX
-* SWID
-* metæffekt Inventory
-* ORT Analysis Output
+* [SPDX](https://spdx.github.io/spdx-spec/)
+* [CycloneDX](https://cyclonedx.org/)
+* [SWID](ISO/IEC 19770-2:2015)
+* [metæffekt Inventory](https://github.com/org-metaeffekt/metaeffekt-core)
+* [ORT Analyser YAML/JSON Output](https://github.com/oss-review-toolkit/ort)
 
 ## MBOM Essentials
 
@@ -88,3 +88,5 @@ configuration.*
 ### External References
 
 * [NTIA Software Bill of Materials](https://ntia.gov/SBOM) - very complete materials on SBOMs.
+* [Awesome SBOM](https://github.com/awesomeSBOM/awesome-sbom) - Collection of various resources around SBOMs.
+

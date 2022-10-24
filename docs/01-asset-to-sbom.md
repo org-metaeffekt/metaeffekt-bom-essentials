@@ -23,7 +23,7 @@ code**, the **binary** or the **distribution** representation is meant.
 It is essential for downstream use cases what **software representation is of 
 interest**. Assuming that the Software Assets are the target of interest, an SBOM shall 
 cover the information detailing the assets, no matter which representation is used,
-to convey the information to a recipient (e.g. an operator or business partner).
+to convey the information to a recipient (e.g., an operator or business partner).
 
 It is important to note, that dependencies on source level may not necessarily be
 part of the binary or distribution representation. The interpretation of dependencies 
@@ -41,7 +41,7 @@ conclusions.
 
 The benefit of downstream results from an SBOM relies on the completeness of the SBOM.
 In case the SBOM is incomplete, the derived conclusions may be incomplete. If the SBOM
-is inaccurate, the donwstream results may be imprecise.
+is inaccurate, the downstream results may be imprecise.
 
 Completeness validation can either be based on automated validation rules applied to an SBOM. Such rules can cover:
 * consistency checks based on structure 
