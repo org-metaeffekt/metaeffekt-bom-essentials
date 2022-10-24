@@ -44,7 +44,7 @@ of all Hardware Parts required to build a complete and shippable product.
 
 *Background:
 The term MBOM is defined in early ANSI/ISA-95 (IEC 62264-1 Models and Terminology).
-Other refer to an Hardware Bill of Materials as HBOM.*
+Other refer to a Hardware Bill of Materials as HBOM.*
 
 ## SBOM Essentials
 
@@ -65,7 +65,7 @@ The following projects define SBOM data models and format definition:
 * [SPDX](https://spdx.github.io/spdx-spec/)
 * [CycloneDX](https://cyclonedx.org/)
 * [SWID](https://www.iso.org/standard/65666.html)
-* [metæffekt Inventory](https://github.com/org-metaeffekt/metaeffekt-core)
+* [{metæffekt} Inventory](https://github.com/org-metaeffekt/metaeffekt-core)
 * [ORT Analyser YAML/JSON Output](https://github.com/oss-review-toolkit/ort)
 
 ## MBOM Essentials
@@ -82,7 +82,7 @@ Based on an MBOM the following use cases are anticipated:
 * Monitoring Vulnerabilities of Hardware and in correlation with Software.
 
 *Background:
-Some vulnerabilities only surface in combination with hardware. E.g. a specific hardware running a specific software 
+Some vulnerabilities only surface in combination with hardware. E.g., a specific hardware running a specific software 
 configuration.*
 
 ### External References
