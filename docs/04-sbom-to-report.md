@@ -2,5 +2,5 @@
 
 Vulnerability reports (for external recipients) can be produced from SBOMs.
 
-![Vulnerability Reports created from SBOM](figures/03-sbom-to-dashboard.svg)
+![Vulnerability Reports created from SBOM](figures/04-sbom-to-report.svg)
 
