@@ -90,3 +90,7 @@ configuration.*
 * [NTIA Software Bill of Materials](https://ntia.gov/SBOM) - very complete materials on SBOMs.
 * [Awesome SBOM](https://github.com/awesomeSBOM/awesome-sbom) - Collection of various resources around SBOMs.
 
+# License
+Creative Commons Attribute-NoDerivatives 4.0 International
+- Copyright (c) 2019 Karsten Klein, metaeffekt GmbH
+- Copyright (c) 2019 Thomas Schulte, metaeffekt GmbH
