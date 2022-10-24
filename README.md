@@ -64,7 +64,7 @@ The following projects define SBOM data models and format definition:
 
 * [SPDX](https://spdx.github.io/spdx-spec/)
 * [CycloneDX](https://cyclonedx.org/)
-* [SWID](ISO/IEC 19770-2:2015)
+* [SWID](https://www.iso.org/standard/65666.html)
 * [metæffekt Inventory](https://github.com/org-metaeffekt/metaeffekt-core)
 * [ORT Analyser YAML/JSON Output](https://github.com/oss-review-toolkit/ort)
 
