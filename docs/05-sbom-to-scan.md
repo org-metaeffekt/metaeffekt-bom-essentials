@@ -1,4 +1,4 @@
-# Scanning Software based on SBOM
+# Scanning Software based on an SBOM
 
 Usually, license scanning works with Software Assets. An extraction process produces both an analysis structure as well 
 as an SBOM. The license scanner results are then aligned with the SBOM content.

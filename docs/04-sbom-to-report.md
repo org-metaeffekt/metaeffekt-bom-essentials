@@ -1,4 +1,4 @@
-# Reporting Vulnerabilities using SBOM
+# Reporting Vulnerabilities using an SBOM
 
 Vulnerability reports (for external recipients) can be produced from SBOMs.
 

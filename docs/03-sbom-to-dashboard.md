@@ -1,4 +1,4 @@
-# Monitoring Vulnerabilities using SBOM
+# Monitoring Vulnerabilities using an SBOM
 
 Based on SBOMs outputs supporting vulnerability monitoring and vulnerability assessment can be generated.
 

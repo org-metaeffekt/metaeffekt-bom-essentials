@@ -1,4 +1,4 @@
-# Creating Software Documentation using SBOM
+# Creating Software Documentation based on an SBOM
 
 Based on an SBOM further compliance documents can be created. 
 
