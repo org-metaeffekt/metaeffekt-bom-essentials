@@ -52,11 +52,11 @@ To outline SBOM essentials the different use cases around SBOMs are inspected.
 
 ### SBOM Use Cases
 
-* [Creating an SBOM from Software Artifacts](docs/01-asset-to-sbom.md)
-* [Creating Software Documentation using SBOMs](docs/02-sbom-to-annex.md)
-* [Monitoring Vulnerabilities using SBOMs](docs/03-sbom-to-dashboard.md)
-* [Reporting Vulnerability Disclosures using SBOMs](docs/04-sbom-to-report.md)
-* [License Scanning using SBOMs](docs/05-sbom-to-scan.md)
+* [Creating an SBOM from Software Assets](docs/01-asset-to-sbom.md)
+* [Creating Software Documentation based on an SBOM](docs/02-sbom-to-annex.md)
+* [Monitoring Vulnerabilities using an SBOM](docs/03-sbom-to-dashboard.md)
+* [Reporting Vulnerabilities using an SBOM](docs/04-sbom-to-report.md)
+* [Scanning Software based on an SBOM](docs/05-sbom-to-scan.md)
 
 ### Implementations
 
