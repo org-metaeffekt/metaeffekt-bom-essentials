@@ -2,8 +2,11 @@
 
 ## Definitions
 
-### Assets, Software Assets and Hardware Assets
-An Asset is concept or unit of value. Here, either a Software or Hardware Asset.
+In advance to the details some definitions on terminology is provided.
+
+### Asset
+An Asset is concept or unit of value. Here, either a Software or Hardware Asset. Assets may also include documents
+and data.
 
 ### Software Asset
 A Software Asset is an Asset consisting of Software. Software Assets are for example:
@@ -18,8 +21,8 @@ A Hardware Asset is an Asset consisting of Hardware. Hardware assets are for exa
 
 ### Bill of Materials (BOM)
 
-A Bill of Materials is a listing details of an asset in a human- or 
-machine-machine fashion. BOMs can container hierarchy or relationship information.
+A Bill of Materials is listing details of an asset in a human- or 
+machine-machine fashion. BOMs can contain hierarchy or relationship information.
 
 ### Software Artifacts / Artifacts
 
@@ -32,34 +35,54 @@ Details of Hardware Asset are Hardware Parts or just Parts.
 
 ### Software Bill of Materials (SBOM)
 
-A human- or machine-readable BOM lists Software Artefacts providing detail 
-on one or more Software Assets.
+A human- or machine-readable BOM lists Software Artefacts providing details on one or more Software Assets.
 
 ### Manufacturing Bill of Materials (MBOM)
 
-A human- or machine-readable BOM lists Hardware Parts detailing on one or 
-more Hardware Assets. An MBOM consists all Hardware Parts required to build a 
-complete and shippable product.
+A human- or machine-readable BOM lists Hardware Parts detailing on one or more Hardware Assets. An MBOM consists 
+of all Hardware Parts required to build a complete and shippable product.
 
+*Background:
 The term MBOM is defined in early ANSI/ISA-95 (IEC 62264-1 Models and Terminology).
-Other refer to an Hardware Bill of Materials as HBOM.
+Other refer to an Hardware Bill of Materials as HBOM.*
 
 ## SBOM Essentials
 
 To outline SBOM essentials the different use cases around SBOMs are inspected.
+
+### SBOM Use Cases
 
 * [Creating an SBOM](docs/sbom-create.md)
 * Creating Software Documentation using SBOMs
 * Monitoring Vulnerabilities using SBOMs
 * Creating Vulnerability Disclosure Reports using SBOMs
 
-## Implementations
+### Implementations
+
+The following projects define SBOM data models and format definition:
 
 * SPDX
 * CycloneDX
 * SWID
 * metæffekt Inventory
 * ORT Analysis Output
+
+## MBOM Essentials
+
+MBOM creation can usually not be automated. MBOMs - in the best case - can be exported from hardware or mechanical 
+design tools.
+
+### HBOM Use Cases
+
+Based on an MBOM the following use cases are anticipated:
+
+* Linking the MBOM to SBOMs. Specifically with respect to software placed on the hardware (firmware, loadable 
+  application code)
+* Monitoring Vulnerabilities of Hardware and in correlation with Software.
+
+*Background:
+Some vulnerabilities only surface in combination with hardware. E.g. a specific hardware running a specific software 
+configuration.*
 
 ### External References
 
