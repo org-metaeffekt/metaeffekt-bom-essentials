@@ -46,7 +46,7 @@ is inaccurate, the downstream results may be imprecise.
 Completeness validation can either be based on automated validation rules applied to an SBOM. Such rules can cover:
 * consistency checks based on structure 
 * consistency checks based on semantics
-* validation of declared and internal known information
+* validation of declared information against internal knowledge
 
 Another approach for the validation of completeness are reviews and explorative audits. While reviews try to establish
 an overall status quo, explorations are dedicated to in depth analysis focusing on specific artifacts or modes of 
