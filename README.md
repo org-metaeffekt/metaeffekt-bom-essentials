@@ -91,7 +91,7 @@ Based on an MBOM the following use cases are anticipated:
 Some vulnerabilities only surface in combination with hardware. E.g., a specific hardware running a specific software 
 configuration.*
 
-### External References
+## External References
 
 * [NTIA Software Bill of Materials](https://ntia.gov/SBOM) - very complete materials on SBOMs.
 * [Awesome SBOM](https://github.com/awesomeSBOM/awesome-sbom) - Collection of various resources around SBOMs.
