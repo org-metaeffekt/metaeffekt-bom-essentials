@@ -17,4 +17,4 @@ subsequently.
 * Source Code (depending on source code handling)
 
 
-[Back to use cases](../README.md#SBOM-Use-Cases)
+Back to [SBOM Essentials](../README.md#SBOM-Essentials).

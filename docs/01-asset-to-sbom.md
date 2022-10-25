@@ -53,4 +53,4 @@ an overall status quo, explorations are dedicated to in depth analysis focusing 
 integration.  
 
 
-[Back to use cases](../README.md#SBOM-Use-Cases)
+Back to [SBOM Essentials](../README.md#SBOM-Essentials).
