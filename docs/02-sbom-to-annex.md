@@ -11,7 +11,7 @@ subsequently.
 
 * Effective license determination
 * Justification with respect to copyleft and other reciprocal effects  
-* Written offer
+* Written offer with respect to source code availability
 * Corresponding License Text and License Notice files
 * Source Code (depending on source code handling)
 * Compulsory statements regarding individual license obligations
