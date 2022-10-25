@@ -30,7 +30,7 @@ Artifacts.
 
 #### Software Bill of Materials (SBOM)
 
-A human- or machine-readable BOM lists Software Artefacts providing details on one or more Software Assets.
+A human- or machine-readable BOM lists Software Artifacts providing details on one or more Software Assets.
 
 ### Hardware 
 
