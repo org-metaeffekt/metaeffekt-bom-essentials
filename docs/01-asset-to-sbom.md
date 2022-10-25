@@ -34,7 +34,7 @@ the exact build configuration.
 
 The SBOM should uniquely identify the Software Artifacts and complement 
 precise information of the Software Artifacts. Ambiguities may confuse 
-Software Artifacts. Imprecision on attribute level may induce false 
+Software Artifacts. Imprecision on attribute-level may induce false 
 conclusions.
 
 ## Completeness
