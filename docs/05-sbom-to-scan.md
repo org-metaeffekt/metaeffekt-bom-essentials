@@ -5,7 +5,7 @@ as an SBOM. The license scanner results are then aligned with the SBOM content.
 
 ![Asset Scanning from Asset](figures/05-asset-to-scan.svg)
 
-In case only an SBOM is available an aggregation process is prepended:
+In case only an SBOM is available, an aggregation process is prepended:
 
 ![Asset Scanning from SBOM](figures/06-sbom-to-scan.svg)
 
