@@ -51,3 +51,5 @@ Completeness validation can either be based on automated validation rules applie
 Another approach for the validation of completeness are reviews and explorative audits. While reviews try to establish
 an overall status quo, explorations are dedicated to in depth analysis focusing on specific artifacts or modes of 
 integration.  
+
+[Back to use cases](../README.md#sbom-use-cases)

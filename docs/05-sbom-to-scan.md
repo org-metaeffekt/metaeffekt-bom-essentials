@@ -13,3 +13,6 @@ In case only an SBOM is available, an aggregation process is prepended:
 
 The license scanner required detailed license information. A database of licenses to differentiate the exact license
 text is required.
+
+
+[Back to use cases](../README.md#sbom-use-cases)

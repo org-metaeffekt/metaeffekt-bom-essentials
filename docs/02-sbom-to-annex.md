@@ -15,3 +15,5 @@ subsequently.
 * Written offer with respect to source code availability
 * Compulsory statements regarding individual license obligations
 * Source Code (depending on source code handling)
+
+[Back to use cases](../README.md#sbom-use-cases)
