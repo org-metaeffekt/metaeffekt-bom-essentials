@@ -1,6 +1,6 @@
 # Creating Software Documentation based on an SBOM
 
-Based on an SBOM further compliance documents can be created. 
+Based on an SBOM further compliance documents can be created: 
 
 ![Software Annex created from SBOM](figures/02-sbom-to-annex.svg)
 
@@ -12,6 +12,6 @@ subsequently.
 * Effective license determination
 * Justification with respect to copyleft and other reciprocal effects  
 * Written offer
-* Corresponding License Text
+* Corresponding License Text and License Notice files
 * Source Code (depending on source code handling)
 * Compulsory statements regarding individual license obligations
