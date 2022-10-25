@@ -10,8 +10,8 @@ subsequently.
 ## Requirements for Compliance
 
 * Effective license determination
+* Corresponding License Text and License Notice files
 * Justification with respect to copyleft and other reciprocal effects  
 * Written offer with respect to source code availability
-* Corresponding License Text and License Notice files
-* Source Code (depending on source code handling)
 * Compulsory statements regarding individual license obligations
+* Source Code (depending on source code handling)
