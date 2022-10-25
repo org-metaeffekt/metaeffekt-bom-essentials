@@ -8,34 +8,34 @@ In advance to the details some definitions on terminology is provided.
 An Asset is concept or unit of value. Here, either a Software or Hardware Asset. Assets may also include documents
 and data.
 
+### Bill of Materials (BOM)
+
+A Bill of Materials is listing details of an asset in a human- or
+machine-machine fashion. BOMs can contain hierarchy or relationship information.
+
 ### Software Asset
 A Software Asset is an Asset consisting of Software. Software Assets are for example:
 * Software archives for distribution
 * Software Container Images
 * Virtual Machine Images
 
+### Software Artifacts / Artifacts
+
+Substructures or details of a Software Asset are Software Artifacts or just
+Artifacts.
+
+### Software Bill of Materials (SBOM)
+
+A human- or machine-readable BOM lists Software Artefacts providing details on one or more Software Assets.
+
 ### Hardware Asset
 A Hardware Asset is an Asset consisting of Hardware. Hardware assets are for example:
 * Devices (stationary devices and equipment, mobile devices, robots)
 * Server appliances
 
-### Bill of Materials (BOM)
-
-A Bill of Materials is listing details of an asset in a human- or 
-machine-machine fashion. BOMs can contain hierarchy or relationship information.
-
-### Software Artifacts / Artifacts
-
-Substructures or details of a Software Asset are Software Artifacts or just 
-Artifacts.
-
 ### Hardware Parts / Parts
 
 Details of Hardware Asset are Hardware Parts or just Parts.
-
-### Software Bill of Materials (SBOM)
-
-A human- or machine-readable BOM lists Software Artefacts providing details on one or more Software Assets.
 
 ### Manufacturing Bill of Materials (MBOM)
 
@@ -92,5 +92,5 @@ configuration.*
 
 # License
 Creative Commons Attribute-NoDerivatives 4.0 International
-- Copyright (c) 2019 Karsten Klein, metaeffekt GmbH
-- Copyright (c) 2019 Thomas Schulte, metaeffekt GmbH
+- Copyright (c) 202 Karsten Klein, metaeffekt GmbH
+- Copyright (c) 2022 Thomas Schulte, metaeffekt GmbH
