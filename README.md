@@ -4,40 +4,46 @@
 
 In advance to the details some definitions on terminology is provided.
 
-### Asset
+### Generic
+
+#### Asset
 An Asset is concept or unit of value. Here, either a Software or Hardware Asset. Assets may also include documents
 and data.
 
-### Bill of Materials (BOM)
+#### Bill of Materials (BOM)
 
 A Bill of Materials is listing details of an asset in a human- or
 machine-machine fashion. BOMs can contain hierarchy or relationship information.
 
-### Software Asset
+### Software
+
+#### Software Asset
 A Software Asset is an Asset consisting of Software. Software Assets are for example:
 * Software archives for distribution
 * Software Container Images
 * Virtual Machine Images
 
-### Software Artifacts / Artifacts
+#### Software Artifacts / Artifacts
 
 Substructures or details of a Software Asset are Software Artifacts or just
 Artifacts.
 
-### Software Bill of Materials (SBOM)
+#### Software Bill of Materials (SBOM)
 
 A human- or machine-readable BOM lists Software Artefacts providing details on one or more Software Assets.
 
-### Hardware Asset
+### Hardware 
+
+#### Hardware Asset
 A Hardware Asset is an Asset consisting of Hardware. Hardware assets are for example:
 * Devices (stationary devices and equipment, mobile devices, robots)
 * Server appliances
 
-### Hardware Parts / Parts
+#### Hardware Parts / Parts
 
 Details of Hardware Asset are Hardware Parts or just Parts.
 
-### Manufacturing Bill of Materials (MBOM)
+#### Manufacturing Bill of Materials (MBOM)
 
 A human- or machine-readable BOM lists Hardware Parts detailing on one or more Hardware Assets. An MBOM consists 
 of all Hardware Parts required to build a complete and shippable product.
