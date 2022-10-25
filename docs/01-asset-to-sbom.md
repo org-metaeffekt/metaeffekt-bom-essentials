@@ -52,4 +52,5 @@ Another approach for the validation of completeness are reviews and explorative 
 an overall status quo, explorations are dedicated to in depth analysis focusing on specific artifacts or modes of 
 integration.  
 
-[Back to use cases](../README.md#sbom-use-cases)
+
+[Back to use cases](../README.md#SBOM Use Cases)

@@ -16,4 +16,5 @@ subsequently.
 * Compulsory statements regarding individual license obligations
 * Source Code (depending on source code handling)
 
-[Back to use cases](../README.md#sbom-use-cases)
+
+[Back to use cases](../README.md#SBOM Use Cases)

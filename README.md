@@ -79,7 +79,7 @@ The following projects define SBOM data models and format definition:
 MBOM creation can usually not be automated. MBOMs - in the best case - can be exported from hardware or mechanical 
 design tools.
 
-### HBOM Use Cases
+### MBOM Use Cases
 
 Based on an MBOM the following use cases are anticipated:
 

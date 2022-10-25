@@ -29,4 +29,5 @@ Vulnerability Assessment Process.
 Vulnerability monitoring and assessment may face a significant amount of vulnerabilities to process. Techniques are 
 required to enable bulk vulnerability processing and skim the relevant threats for prioritization.
 
-[Back to use cases](../README.md#sbom-use-cases)
+
+[Back to use cases](../README.md#SBOM Use Cases)
