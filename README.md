@@ -92,5 +92,5 @@ configuration.*
 
 # License
 Creative Commons Attribute-NoDerivatives 4.0 International
-- Copyright (c) 202 Karsten Klein, metaeffekt GmbH
+- Copyright (c) 2022 Karsten Klein, metaeffekt GmbH
 - Copyright (c) 2022 Thomas Schulte, metaeffekt GmbH
