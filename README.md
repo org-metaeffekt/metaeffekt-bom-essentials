@@ -50,7 +50,7 @@ of all Hardware Parts required to build a complete and shippable product.
 
 *Background:
 The term MBOM is defined in early ANSI/ISA-95 (IEC 62264-1 Models and Terminology).
-Other refer to a Hardware Bill of Materials as HBOM.*
+Often also the term Hardware Bill of Materials (HBOM) is used.*
 
 ## SBOM Essentials
 
