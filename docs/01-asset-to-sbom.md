@@ -44,9 +44,9 @@ In case the SBOM is incomplete, the derived conclusions may be incomplete. If th
 is inaccurate, the downstream results may be imprecise.
 
 Completeness validation can either be based on automated validation rules applied to an SBOM. Such rules can cover:
-* consistency checks based on SBOM structure 
-* consistency checks based on SBOM content (semantics)
-* validation of SBOM-declared information against internal knowledge
+* consistency checks based on **SBOM structure** (hierarchy, relationships, granularity)
+* consistency checks based on **SBOM content** (semantics)
+* validation of **SBOM-declared information against internal knowledge**
 
 Another approach for the validation of completeness are reviews and explorative audits. While reviews try to establish
 an overall status quo, explorations are dedicated to in depth analysis focusing on specific artifacts or modes of 
