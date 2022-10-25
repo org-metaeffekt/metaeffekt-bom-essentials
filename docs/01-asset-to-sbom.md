@@ -49,5 +49,5 @@ Completeness validation can either be based on automated validation rules applie
 * validation of declared and internal known information
 
 Another approach for the validation of completeness are reviews and explorative audits. While reviews try to establish
-an overall status quo, explorations are dedicated to in depth analysis focusing on specific artefacts or modes of 
+an overall status quo, explorations are dedicated to in depth analysis focusing on specific artifacts or modes of 
 integration.  
