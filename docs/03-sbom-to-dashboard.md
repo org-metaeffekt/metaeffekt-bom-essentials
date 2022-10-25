@@ -30,4 +30,4 @@ Vulnerability monitoring and assessment may face a significant amount of vulnera
 required to enable bulk vulnerability processing and skim the relevant threats for prioritization.
 
 
-[Back to use cases](../README.md#SBOM Use Cases)
+[Back to use cases](../README.md#SBOM-Use-Cases)

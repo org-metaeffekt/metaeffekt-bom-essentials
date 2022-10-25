@@ -15,4 +15,4 @@ The license scanner requires detailed license information. A database of license
 text is required.
 
 
-[Back to use cases](../README.md#SBOM Use Cases)
+[Back to use cases](../README.md#SBOM-Use-Cases)
