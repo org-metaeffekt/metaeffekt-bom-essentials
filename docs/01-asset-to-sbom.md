@@ -13,7 +13,7 @@ When creating an SBOM it is of relevance for what purpose the SBOM is
 produced. Depending on the downstream use cases different sets of information are
 required.
 
-In the following different aspects are considered.
+In the following different key aspects are considered.
 
 ## Software Representations
 
