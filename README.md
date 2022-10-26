@@ -13,7 +13,7 @@ and data.
 #### Bill of Materials (BOM)
 
 A Bill of Materials is listing details of an asset in a human- or
-machine-machine fashion. BOMs can contain hierarchy or relationship information.
+machine-readable fashion. BOMs can contain hierarchy or relationship information.
 
 ### Software
 
