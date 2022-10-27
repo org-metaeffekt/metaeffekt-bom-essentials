@@ -2,7 +2,7 @@
 
 ## Definitions
 
-In advance to the details some definitions on terminology is provided.
+In advance to the details definitions on terminology are provided.
 
 ### Generic
 
