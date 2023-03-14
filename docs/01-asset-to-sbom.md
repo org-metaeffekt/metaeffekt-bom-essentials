@@ -32,10 +32,10 @@ the exact build configuration.
 
 Please note, that a Software Asset in its lifecycle has different representations. One may use the following terms to
 identify the status in the lifecycle:
-* as-defined - the Software Asset as defined by the source code and build instructions.
-* as-developed - the Software Asset as output by the build procedure
-* as-delivered - the Software Asset as packaged for delivery or as delivered to the recipient 
-* as-deployed - the Software Asset as deployed on a target system
+* **as-defined** - the Software Asset as defined by the source code and build instructions.
+* **as-developed** - the Software Asset as output by the build procedure
+* **as-delivered** - the Software Asset as packaged for delivery or as delivered to the recipient 
+* **as-deployed** - the Software Asset as deployed on a target system
 
 It is important to understand that SBOMs on the different lifecycle stages may show different details. 
 
