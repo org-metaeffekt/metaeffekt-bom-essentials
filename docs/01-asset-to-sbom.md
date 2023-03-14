@@ -23,12 +23,21 @@ code**, the **binary** or the **distribution** representation is meant.
 It is essential for downstream use cases what **software representation is of 
 interest**. Assuming that the Software Assets are the target of interest, an SBOM shall 
 cover the information detailing the assets, no matter which representation is used,
-to convey the information to a recipient (e.g., an operator or business partner).
+to convey the information to a Recipient (e.g., an operator or business partner).
 
 It is important to note, that dependencies on source level may not necessarily be
 part of the binary or distribution representation. The interpretation of dependencies 
 strongly depends on the technology applied to build the binary from source and
 the exact build configuration.
+
+Please note, that a Software Asset in its lifecycle has different representations. One may use the following terms to
+identify the status in the lifecycle:
+* as-defined - the Software Asset as defined by the source code and build instructions.
+* as-developed - the Software Asset as output by the build procedure
+* as-delivered - the Software Asset as packaged for delivery or as delivered to the recipient 
+* as-deployed - the Software Asset as deployed on a target system
+
+It is important to understand that SBOMs on the different lifecycle stages may show different details. 
 
 ## Unique Identification / Precise Details
 
