@@ -12,8 +12,22 @@ and data.
 
 #### Bill of Materials (BOM)
 
-A Bill of Materials is listing details of an asset in a human- or
-machine-readable fashion. BOMs can contain hierarchy or relationship information.
+A Bill of Materials is listing details of an asset in a human- or machine-readable fashion. BOMs can contain hierarchy 
+or relationship information.
+
+#### Supplier
+
+The supplier is a person or legal entity that produces a Software or Hardware Asset. The supplier is the originator, 
+creator, or manufacturer of an Asset.
+
+#### Distributor
+
+A distributor may distribute Software and Hardware Assets. The Software and Hardware Assets are not modified as such
+and distributed "AS IS".
+
+#### Vendor
+
+A vendor is a supplier or distributor that acts in a commercial context / relationship with a consumer of an Asset.
 
 ### Software
 
@@ -25,8 +39,7 @@ A Software Asset is an Asset consisting of Software. Software Assets are for exa
 
 #### Software Artifacts / Artifacts
 
-Substructures or details of a Software Asset are Software Artifacts or just
-Artifacts.
+Substructures or details of a Software Asset are Software Artifacts or just Artifacts.
 
 #### Software Bill of Materials (SBOM)
 
