@@ -14,7 +14,6 @@ licenses.
 
 ## Requirements for Compliance
 
-
 * Effective license determination
 * Corresponding License Text and License Notice files
 * Justification with respect to copyleft and other reciprocal effects  

@@ -7,8 +7,8 @@ In advance to the details definitions on terminology are provided.
 ### Generic
 
 #### Asset
-An Asset is concept or unit of value. Here, either a Software or Hardware Asset. Assets may also include documents
-and data.
+An Asset is concept or unit of value. Here, either a Software or Hardware Asset. Assets may also be documents
+or data sets; content in general.
 
 #### Bill of Materials (BOM)
 
@@ -41,6 +41,10 @@ A Software Asset is an Asset consisting of Software. Software Assets are for exa
 
 Substructures or details of a Software Asset are Software Artifacts or just Artifacts.
 
+### Software Components
+
+Software Components group Software Artifacts into a logical unit. Often these artifacts have consistent characteristics.
+
 #### Software Bill of Materials (SBOM)
 
 A human- or machine-readable BOM lists Software Artifacts providing details on one or more Software Assets.
@@ -51,6 +55,9 @@ A human- or machine-readable BOM lists Software Artifacts providing details on o
 A Hardware Asset is an Asset consisting of Hardware. Hardware assets are for example:
 * Devices (stationary devices and equipment, mobile devices, robots)
 * Server appliances
+
+A Hardware Asset may require software to operate (microcontroller programs, FPGA programs, operating systems and 
+other software components).
 
 #### Hardware Parts / Parts
 
@@ -108,6 +115,7 @@ configuration.*
 
 * [NTIA Software Bill of Materials](https://ntia.gov/SBOM) - very complete materials on SBOMs.
 * [Awesome SBOM](https://github.com/awesomeSBOM/awesome-sbom) - Collection of various resources around SBOMs.
+* [Open CODE SPDX Conformance](https://gitlab.opencode.de/open-code/spdx-conformance) - Initial defintions regarding SBOMs by Open CoDE.
 
 # License
 Creative Commons Attribute-NoDerivatives 4.0 International
