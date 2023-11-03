@@ -30,14 +30,19 @@ part of the binary or distribution representation. The interpretation of depende
 strongly depends on the technology applied to build the binary from source and
 the exact build configuration.
 
-Please note, that a Software Asset in its lifecycle has different representations. One may use the following terms to
-identify the status in the lifecycle:
+Please note, that a Software Asset in its lifecycle has different representations. 
+One may use the following terms to identify the status in the lifecycle:
 * **as-defined** - the Software Asset as defined by the source code and build instructions.
-* **as-developed** - the Software Asset as output by the build procedure
-* **as-delivered** - the Software Asset as packaged for delivery or as delivered to the recipient 
+* **as-build** - the Software Asset as output by the build procedure.
+* **as-packaged** - the Software Asset as packaged by the supplier.
+* **as-delivered** - the Software Asset as delivered to a recipient 
 * **as-deployed** - the Software Asset as deployed on a target system
 
-It is important to understand that SBOMs on the different lifecycle stages may show different details. 
+It is important to understand that SBOMs on the different lifecycle stages may show different details. Ideally, 
+changes to the SBOMs along the lifecycle are well understood and completely traceable.
+
+*NOTE: using an SBOM as-defined to monitor vulnerabilities in the target systems may not be appropriate. Along
+the lifecycle and supply chain various modifications, substitutions, patches may have been applied.*
 
 ## Unique Identification / Precise Details
 

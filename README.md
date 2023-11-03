@@ -63,14 +63,16 @@ other software components).
 
 Details of Hardware Asset are Hardware Parts or just Parts.
 
-#### Manufacturing Bill of Materials (MBOM)
+#### Hardware Bill of Materials (HBOM)
 
-A human- or machine-readable BOM lists Hardware Parts detailing on one or more Hardware Assets. An MBOM consists 
-of all Hardware Parts required to build a complete and shippable product.
+A human- or machine-readable BOM lists Hardware Parts detailing on one or more Hardware Assets. An HBOM consists 
+primarily of all Hardware Parts required to build a complete and shippable product. In addition, the HBOM may also
+refer to software and service information to refer to additional information.
 
 *Background:
-The term MBOM is defined in early ANSI/ISA-95 (IEC 62264-1 Models and Terminology).
-Often also the term Hardware Bill of Materials (HBOM) is used.*
+The term Manufacturing Bill of Materials (MBOM) is defined in early ANSI/ISA-95 (IEC 62264-1 Models and Terminology).
+Recently the term Hardware Bill of Materials (HBOM) is used commonly. See also [CISA - A HBOM Framework for Supply Chain
+Risk Management](https://www.cisa.gov/resources-tools/resources/hardware-bill-materials-hbom-framework-supply-chain-risk-management).*
 
 ## SBOM Essentials
 
@@ -94,16 +96,16 @@ The following projects define SBOM data models and format definition:
 * [{metæffekt} Inventory](https://github.com/org-metaeffekt/metaeffekt-core)
 * [ORT Analyser YAML/JSON Output](https://github.com/oss-review-toolkit/ort)
 
-## MBOM Essentials
+## HBOM Essentials
 
-MBOM creation can usually not be automated. MBOMs - in the best case - can be exported from hardware or mechanical 
+HBOM creation can usually not be automated. HBOMs - in the best case - can be exported from hardware or mechanical 
 design tools.
 
-### MBOM Use Cases
+### HBOM Use Cases
 
-Based on an MBOM the following use cases are anticipated:
+Based on an HBOM the following use cases are anticipated:
 
-* Linking the MBOM to SBOMs. Specifically with respect to software placed on the hardware (firmware, loadable 
+* Linking the HBOM to SBOMs. Specifically with respect to software placed on the hardware (firmware, loadable 
   application code)
 * Monitoring Vulnerabilities of Hardware and in correlation with Software.
 
@@ -116,8 +118,9 @@ configuration.*
 * [NTIA Software Bill of Materials](https://ntia.gov/SBOM) - very complete materials on SBOMs.
 * [Awesome SBOM](https://github.com/awesomeSBOM/awesome-sbom) - Collection of various resources around SBOMs.
 * [Open CODE SPDX Conformance](https://gitlab.opencode.de/open-code/spdx-conformance) - Initial defintions regarding SBOMs by Open CoDE.
+* [CISA - A Hardware Bill of Materials (HBOM) for Supply Chain Risk Management](https://www.cisa.gov/resources-tools/resources/hardware-bill-materials-hbom-framework-supply-chain-risk-management) - HBOM-centric framework.
 
 # License
 Creative Commons Attribute-NoDerivatives 4.0 International
-- Copyright (c) 2022 Karsten Klein, metaeffekt GmbH
+- Copyright (c) 2022-2023 Karsten Klein, metaeffekt GmbH
 - Copyright (c) 2022 Thomas Schulte, metaeffekt GmbH
