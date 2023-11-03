@@ -59,9 +59,13 @@ A Hardware Asset is an Asset consisting of Hardware. Hardware assets are for exa
 A Hardware Asset may require software to operate (microcontroller programs, FPGA programs, operating systems and 
 other software components).
 
+#### Hardware Units
+
+Physical units of hardware. An Hardware Asset may consist of one or more Hardware Units. 
+
 #### Hardware Parts / Parts
 
-Details of Hardware Asset are Hardware Parts or just Parts.
+Details of Hardware Unit are Hardware Parts or just Parts.
 
 #### Hardware Bill of Materials (HBOM)
 
@@ -71,7 +75,7 @@ refer to software and service information to refer to additional information.
 
 *Background:
 The term Manufacturing Bill of Materials (MBOM) is defined in early ANSI/ISA-95 (IEC 62264-1 Models and Terminology).
-Recently the term Hardware Bill of Materials (HBOM) is used commonly. See also [CISA - A HBOM Framework for Supply Chain
+Recently the term Hardware Bill of Materials (HBOM) is used more commonly. See also [CISA - A HBOM Framework for Supply Chain
 Risk Management](https://www.cisa.gov/resources-tools/resources/hardware-bill-materials-hbom-framework-supply-chain-risk-management).*
 
 ## SBOM Essentials
@@ -113,6 +117,19 @@ Based on an HBOM the following use cases are anticipated:
 Some vulnerabilities only surface in combination with hardware. E.g., a specific hardware running a specific software 
 configuration.*
 
+# Unification across Hardware & Software
+
+To organize software and hardware uniformly the metaeffekt tools use the following scheme:
+
+| Level       | Description                                                                                                                                                                                                                                           | Software                                                | Hardware                           |
+|:------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------|:-----------------------------------|
+| Asset       | Asset of value. Assets are distributed and contractually agreed.                                                                                                                                                                                      | Software Asset                                          | Hardware Asset                     |
+| Component   | Groups of Artifacts may form a Component. A Component can also be represented by a single Artifact.                                                                                                                                                   | Software Component                                      | Hardware Unit / Hardware Component |
+| Artifact    | Identifiable representation / part of a Component. See [ArtifactType](https://github.com/org-metaeffekt/metaeffekt-core/blob/master/libraries/ae-inventory-processor/src/main/java/org/metaeffekt/core/inventory/processor/model/ArtifactType.java).  | Software Artifact (Archives, Packages, Files, Snippets) | Hardware Part                      |
+
+For Vulnerability Monitoring it is essential to choose the appropriate granularity of both hardware
+and software and to model their relationship.
+
 ## External References
 
 * [NTIA Software Bill of Materials](https://ntia.gov/SBOM) - very complete materials on SBOMs.
@@ -124,3 +141,4 @@ configuration.*
 Creative Commons Attribute-NoDerivatives 4.0 International
 - Copyright (c) 2022-2023 Karsten Klein, metaeffekt GmbH
 - Copyright (c) 2022 Thomas Schulte, metaeffekt GmbH
+
