@@ -127,8 +127,10 @@ To organize software and hardware uniformly the metaeffekt tools use the followi
 | Component   | Groups of Artifacts may form a Component. A Component can also be represented by a single Artifact.                                                                                                                                                   | Software Component                                      | Hardware Unit / Hardware Component |
 | Artifact    | Identifiable representation / part of a Component. See [ArtifactType](https://github.com/org-metaeffekt/metaeffekt-core/blob/master/libraries/ae-inventory-processor/src/main/java/org/metaeffekt/core/inventory/processor/model/ArtifactType.java).  | Software Artifact (Archives, Packages, Files, Snippets) | Hardware Part                      |
 
-For Vulnerability Monitoring it is essential to choose the appropriate granularity of both hardware
+Further aspects apply:
+* For Vulnerability Monitoring it is essential to choose the appropriate granularity of both hardware
 and software and to model their relationship.
+* Some Components may even represent individual Assets as required on lifecycle / contract level. 
 
 ## External References
 
