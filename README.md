@@ -132,7 +132,7 @@ Further aspects apply:
 and software and to model their relationship.
 * Some Components may even represent individual Assets as required on lifecycle / contract level. 
 
-## <a href="#references"/>External References
+## External References
 
 ### Relevant Definitions, Standards, Norms and Regulation
 * [ISO/IEC 19770-1:2025 – IT Asset Management (ITAM)](https://en.wikipedia.org/wiki/ISO/IEC_19770)
