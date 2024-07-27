@@ -132,15 +132,29 @@ Further aspects apply:
 and software and to model their relationship.
 * Some Components may even represent individual Assets as required on lifecycle / contract level. 
 
-## External References
+## <a href="references"/>External References
 
-* [NTIA Software Bill of Materials](https://ntia.gov/SBOM) - very complete materials on SBOMs.
+### Relevant Definitions, Standards, Norms and Regulation
+* [ISO/IEC 19770-1:2025 – IT Asset Management (ITAM)](https://en.wikipedia.org/wiki/ISO/IEC_19770)
+* [ISO/IEC 5230:2020 – OpenChain; Standard für Open Source Compliance](https://en.wikipedia.org/wiki/ISO/IEC_5230)
+* [ISO/IEC 5692:2021 – System Package Data Exchange (SPDX)](https://www.linuxfoundation.org/press/featured/spdx-becomes-internationally-recognized-standard-for-software-bill-of-materials)
+* [ECMA-424 – CycloneDX Bill of Materials (CycloneDX BOM)](https://ecma-international.org/news/ecma-new-standard-ecma-424-on-cyclonedx-bill-of-materials/)
+* [ISO/IEC 27001:2022 – Information Security Management System (ISMS)](https://en.wikipedia.org/wiki/ISO/IEC_27001)
+* [ISA/IEC 62443 – Industrial Automation Control System (IACS)](https://en.wikipedia.org/wiki/IEC_62443)
+* [BSI IT-Grundschutz Kompendium](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)
+* [BSI TR-03183-2 – Cyber Resilience Requirement / SBOM](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html)
+* [Executive Order 14028 – Improving the Nation's Cybersecurity](https://ntia.gov/SBOM)
+* [NTIA The Minimum Elements For a Software Bill of Materials (SBOM)](https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom)
+* [EVB-IT Basisverträge und Standardverträge](https://www.cio.bund.de/Webs/CIO/DE/digitale-loesungen/it-beschaffung/evb-it-und-bvb/evb-it/evb-it-node.html)
+* [Open CoDE SPDX Conformance](https://gitlab.opencode.de/open-code/spdx-conformance)
+* [EU Cyber Resilience Act (CRA)](https://www.europarl.europa.eu/doceo/document/TA-9-2024-0130_EN.html)
+
+### Other References
 * [Awesome SBOM](https://github.com/awesomeSBOM/awesome-sbom) - Collection of various resources around SBOMs.
-* [Open CODE SPDX Conformance](https://gitlab.opencode.de/open-code/spdx-conformance) - Initial defintions regarding SBOMs by Open CoDE.
 * [CISA - A Hardware Bill of Materials (HBOM) for Supply Chain Risk Management](https://www.cisa.gov/resources-tools/resources/hardware-bill-materials-hbom-framework-supply-chain-risk-management) - HBOM-centric framework.
 
 # License
 Creative Commons Attribute-NoDerivatives 4.0 International
-- Copyright (c) 2022-2023 Karsten Klein, metaeffekt GmbH
+- Copyright (c) 2022-2024 Karsten Klein, metaeffekt GmbH
 - Copyright (c) 2022 Thomas Schulte, metaeffekt GmbH
 
